@@ -53,7 +53,6 @@ public class JobTitleSteps extends CommonMethods {
           //  System.out.println(optionText);
             Assert.assertEquals(GlobarVariables.empListData, optionText);
 
-
         }
 
     }

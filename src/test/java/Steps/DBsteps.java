@@ -35,4 +35,9 @@ public class DBsteps {
         Assert.assertEquals(GlobarVariables.mapDataFromDb.get("emp_middle_name") , GlobarVariables.middleName);
         Assert.assertEquals(GlobarVariables.mapDataFromDb.get("emp_lastname") , GlobarVariables.lastName);
     }
-}
+}//note to keep
+//    String actual = DBUtils.mapFromDb("select * from ohrm_user where user_name='" + GlobalVariables.userName + "';").get("user_name");
+//    String expected=GlobalVariables.userName;
+//System.out.println("Actual "+actual);
+//        System.out.println("Expected "+expected);
+//        Assert.assertEquals(actual, expected);
